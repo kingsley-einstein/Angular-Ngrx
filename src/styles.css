@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    transition: all 500ms ease-in;
+    margin: 8px;
+    padding: 10px;
+}
+
+input:focus {
+    border-color: mediumpurple;
+}
+
+button {
+    border: 1px solid #dcdcdc;
+    background: ghostwhite;
+    padding: 12px;
+    margin: 2px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    padding: 4px;
+    border: 1px solid silver;
+}
+
+td {
+    padding: 4px;
+}
+
+thead > tr {
+    background: mediumslateblue;
+    border: 1px solid #dcdcdc;
+}
+
+tbody > tr {
+    font-size: 14px;
+}
+
+tbody > tr:nth-child(odd) {
+    background: whitesmoke;
+}
+
+th {
+    padding: 12px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+}
+
+.flex > div {
+    margin: 20px;
+}
+
+.form {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.btn-success {
+    border: none;
+    background: mediumseagreen;
+    padding: 8px;
+}
+
+.btn-danger {
+    border: none;
+    background: mediumvioletred;
+    padding: 8px;
+}

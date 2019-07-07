@@ -1,0 +1,16 @@
+<table border="0">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Token</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ (user$ | async)?.id }}</td>
+      <td>{{ (user$ | async)?.name }}</td>
+      <td>{{ (user$ | async )?.token }}</td>
+    </tr>
+  </tbody>
+</table>

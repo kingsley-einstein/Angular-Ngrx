@@ -1,0 +1,4 @@
+<form (ngSubmit)="addUser()" [formGroup]="fg">
+  <input type="text" formControlName="name" />
+  <button type="submit" [disabled]="fg.invalid">ADD</button>
+</form>
